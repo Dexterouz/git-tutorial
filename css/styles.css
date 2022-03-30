@@ -1,0 +1,91 @@
+body {
+  background-color: #ccc;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  padding: 10px 40px;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.text-underline {
+  text-decoration: underline solid #66757F;
+  /* border-bottom: 2px solid #66757F; */
+}
+.container .profile-image {
+  text-align: center;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.mb-1 {
+  margin-bottom: 10px;
+}
+
+.mb-2 {
+  margin-bottom: 20px;
+}
+
+.profile-image img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th, table td{
+  padding: 10px;
+  border: 2px solid #000;
+}
+
+table th {
+  text-align: left;
+}
+
+/* Footer */
+.footer {
+  margin-top: 20px;
+  background-color: #66757F;
+  padding: 10px;
+  text-align: center;
+}
+
+/* .footer span div:first-child{
+  color: #fff;
+} */
+
+address {
+  padding: 10px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright {
+  margin-top: 10px;
+}
+
+.top {
+  display: none;
+  position: fixed;
+  bottom: 5px;
+  right: 10px;
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+}

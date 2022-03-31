@@ -81,11 +81,13 @@ address {
 }
 
 .top {
-  display: none;
+  display: block;
   position: fixed;
+  border-radius: 50%;
+  font-size: small;
   bottom: 5px;
   right: 10px;
-  padding: 10px;
+  padding: 12px 10px;
   background-color: #000;
   color: #fff;
 }
